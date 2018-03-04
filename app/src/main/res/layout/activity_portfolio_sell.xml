@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@color/change_neg"
+        android:padding="15dp"
+        android:src="@drawable/sell_image"
+        android:paddingLeft="10dp"
+        android:layout_weight="0.2"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_vertical"
+     />
+
+        <TextView
+            android:layout_width="0dp"
+            android:background="@color/change_neg"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.85"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <FrameLayout
+
+                android:id="@+id/fl_portfolio_sell"
+                android:layout_width="match_parent"
+                android:layout_height="1275dp"
+                >
+            </FrameLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

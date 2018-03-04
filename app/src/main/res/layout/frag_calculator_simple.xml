@@ -1,0 +1,228 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.85"
+        android:orientation="vertical"
+
+        >
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:fontFamily="sans-serif-light"
+            android:id = "@+id/seven"
+            android:textColor="@color/White"
+            android:background="@drawable/extra_selector"
+            android:layout_marginRight="10dp"
+            android:text="7" />
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id = "@+id/eight"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/White"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/extra_selector"
+            android:text="8" />
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id = "@+id/nine"
+            android:textColor="@color/White"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/extra_selector"
+            android:text="9" />
+
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id = "@+id/div"
+            android:textColor="@color/White"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/extra_selector"
+            android:text="/" />
+
+    </LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="20dp">
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:textColor="@color/White"
+            android:id = "@+id/four"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/extra_selector"
+            android:layout_marginRight="10dp"
+            android:text="4" />
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id = "@+id/five"
+            android:textColor="@color/White"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/extra_selector"
+            android:text="5" />
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id = "@+id/six"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/White"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/extra_selector"
+            android:text="6" />
+
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id = "@+id/mul"
+            android:textColor="@color/White"
+            android:fontFamily="sans-serif-light"
+            android:background="@drawable/extra_selector"
+            android:text="*" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="20dp">
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id = "@+id/one"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/White"
+            android:background="@drawable/extra_selector"
+            android:layout_marginRight="10dp"
+            android:text="1" />
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id = "@+id/two"
+            android:textColor="@color/White"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/extra_selector"
+             android:text="2" />
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id = "@+id/three"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/White"
+            android:background="@drawable/extra_selector"
+            android:text="3" />
+
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id = "@+id/sub"
+            android:textColor="@color/White"
+            android:background="@drawable/extra_selector"
+            android:text="-" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="20dp">
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:fontFamily="sans-serif-light"
+            android:id = "@+id/cancel"
+            android:textColor="@color/White"
+            android:background="@drawable/extra_selector"
+            android:layout_marginRight="10dp"
+            android:text="C" />
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id = "@+id/zero"
+            android:textColor="@color/White"
+
+            android:background="@drawable/extra_selector"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginRight="10dp"
+            android:text="0" />
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:textColor="@color/White"
+            android:id = "@+id/equal"
+            android:background="@drawable/extra_selector"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginRight="10dp"
+            android:text="=" />
+
+        <Button android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id = "@+id/add"
+            android:textColor="@color/White"
+            android:background="@drawable/extra_selector"
+            android:fontFamily="sans-serif-light"
+            android:text="+" />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/White"
+        android:id = "@+id/display"
+        android:fontFamily="sans-serif-medium"
+        android:textSize = "25dp"
+        android:paddingLeft="30dp"
+        android:gravity="center_vertical"
+
+        android:background="@color/app_orange"
+       />
+        >
+
+    </LinearLayout>
+
+    </LinearLayout>
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:minHeight="48dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_spinner_item_icon"
+        android:layout_weight="0.3"
+        android:layout_width="0dp"
+
+        android:layout_height="match_parent"
+        android:src="@drawable/bank_of_ireland"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+
+        />
+
+<TextView
+    android:id="@+id/tv_spinner_item_ticker"
+
+    android:layout_width="0dp"
+    android:layout_weight="0.4"
+    android:layout_height="wrap_content"
+    android:textColor="@color/change_pos"
+    android:text="DD8B.IR"
+    android:padding="20dp"
+    android:gravity="center"
+    android:textSize="13dp"
+    />
+
+    <ImageView
+        android:id="@+id/iv_spinner_item_indicator"
+        android:layout_weight="0.3"
+        android:layout_width="0dp"
+        android:padding = "20dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+
+        />
+</LinearLayout>
+

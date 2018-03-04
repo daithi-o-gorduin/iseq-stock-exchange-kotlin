@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20">
+
+        <ImageButton
+            android:id="@+id/ib_trans_list_more"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src = "@drawable/plus"
+            android:elevation="8dp"
+            android:background="@drawable/mycircle"
+
+
+            />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8">
+
+            <TextView
+                android:id="@+id/tv_trans_list_ticker"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.70"
+                android:textColor="@color/app_orange"
+                android:gravity="bottom|center"
+                android:textSize="35dp"
+                android:text="AIB.IR"
+                />
+
+            <TextView
+                android:id="@+id/tv_trans_list_num"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.30"
+                android:gravity="top|center"
+                android:textSize="15dp"
+                android:text="(2)"
+                android:textColor="@color/app_orange"
+                />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id = "@+id/iv_trans_list_icon"
+            android:layout_width="50dp"
+            android:background="@android:color/transparent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center_vertical"
+            android:src = "@drawable/bought_image_green"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.80">
+
+    </LinearLayout>
+</LinearLayout>

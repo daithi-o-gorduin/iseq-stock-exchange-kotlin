@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">ISEQ Stock Exchange</string>
+    <string name="null_name"></string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >ISEQ</item>
+        <item >Portfolio</item>
+        <item >Watchlist</item>
+        <item >Charts</item>
+        <item >Calculator</item>
+        <item >Exit</item>
+
+
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+   <array name="nav_drawer_icons">
+        <item>@drawable/crest_filled_small</item>
+        <item>@drawable/portfolio</item>
+        <item>@drawable/watchlist</item>
+       <item>@drawable/chart</item>
+        <item>@drawable/calculator</item>
+        <item>@drawable/exit</item>
+
+    </array>
+
+    <array name="mycolors">
+        <item>@color/White</item>
+        <item>@color/Orange</item>
+
+
+    </array>
+
+
+    <array name="iseq_icons">
+        <item>@drawable/aib</item>
+        <item>@drawable/bank_of_ireland</item>
+        <item>@drawable/abbeyplc</item>
+        <item>@drawable/aer_lingus</item>
+        <item>@drawable/aminex</item>
+        <item>@drawable/aryzta</item>
+        <item>@drawable/bank_of_ireland</item>
+        <item>@drawable/bank_of_ireland</item>
+        <item>@drawable/cnc</item>
+        <item>@drawable/conroy</item>
+        <item>@drawable/cpl</item>
+        <item>@drawable/crh</item>
+        <item>@drawable/crh</item>
+        <item>@drawable/crh</item>
+        <item>@drawable/dalata</item>
+        <item>@drawable/datalex</item>
+        <item>@drawable/diageo</item>
+        <item>@drawable/donegal_investment</item>
+        <item>@drawable/dragon_oil</item>
+        <item>@drawable/falcon</item>
+        <item>@drawable/fastnet</item>
+        <item>@drawable/fbd</item>
+        <item>@drawable/first_derivitives</item>
+        <item>@drawable/fyffes</item>
+        <item>@drawable/game_account</item>
+        <item>@drawable/glanbia</item>
+        <item>@drawable/great_western_mining</item>
+        <item>@drawable/green_reit</item>
+        <item>@drawable/hibernia_reit</item>
+        <item>@drawable/ifg</item>
+        <item>@drawable/independent_news_media</item>
+        <item>@drawable/irsh_continental</item>
+        <item>@drawable/ires</item>
+        <item>@drawable/crest_filled_small</item>
+        <item>@drawable/karelian</item>
+        <item>@drawable/kenmare</item>
+        <item>@drawable/kerry_group</item>
+        <item>@drawable/kingspan</item>
+        <item>@drawable/mainstay_medical</item>
+        <item>@drawable/malin</item>
+        <item>@drawable/merrion</item>
+        <item>@drawable/mincon</item>
+        <item>@drawable/origin</item>
+        <item>@drawable/ormonde</item>
+        <item>@drawable/ovoca</item>
+        <item>@drawable/paddy_power</item>
+        <item>@drawable/permanent_tsb</item>
+        <item>@drawable/petroceltic</item>
+        <item>@drawable/petroneft</item>
+        <item>@drawable/prime_active</item>
+        <item>@drawable/providence</item>
+        <item>@drawable/ryanair</item>
+        <item>@drawable/smurfit</item>
+        <item>@drawable/tesco</item>
+        <item>@drawable/total_produce</item>
+        <item>@drawable/tullow</item>
+        <item>@drawable/utv</item>
+        <item>@drawable/zamano</item>
+        <item>@drawable/aib</item>
+        <item>@drawable/aib</item>
+
+    </array>
+
+
+
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

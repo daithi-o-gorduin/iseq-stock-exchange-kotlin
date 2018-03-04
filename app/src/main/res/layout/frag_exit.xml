@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/i_exit"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/app_orange"
+        android:layout_centerInParent="true"
+        android:text="Would you like to exit the application?" />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="50dp">
+
+
+
+            <Button
+                android:id="@+id/bt_no"
+                android:layout_width="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="0.5"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="N"
+                android:textSize="20dp"
+                android:background="@drawable/selector_portfolio_trans"
+                android:textColor="@drawable/selector_button_text"
+
+                />
+
+
+
+            <Button
+                android:id="@+id/bt_yes"
+                android:layout_width="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.5"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text = "Y"
+                android:textSize="20dp"
+                android:background="@drawable/selector_portfolio_trans"
+                android:textColor="@drawable/selector_button_text"
+
+                />
+
+    </LinearLayout>
+
+</LinearLayout>

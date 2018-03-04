@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="300dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/portfolio"
+            android:padding="15dp"
+            android:layout_weight="0.3"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Portfolio"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textSize="20dp"
+        android:layout_weight="0.7"
+        android:textColor="@color/app_orange"
+    />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_port_purchased_val"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/app_orange"
+        android:text = "Purchased Value : $1000"
+        android:layout_weight="0.2"/>
+
+    <TextView
+        android:id="@+id/tv_port_current_val"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/app_orange"
+        android:text = "Purchased Value : $1000"
+        android:layout_weight="0.2"/>
+
+    <TextView
+        android:id="@+id/tv_port_change_percent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/app_orange"
+        android:paddingLeft="10dp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:text = "Change Percentage: %0.35"
+        android:layout_weight="0.2"/>
+
+
+</LinearLayout>
